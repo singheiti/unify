@@ -1,0 +1,7 @@
+const types = {
+    GET_PRODUCTS: "GET_PRODUCTS",
+    UPDATE_FILTERS_MONTH: "UPDATE_FILTERS_MONTH",
+    UPDATE_FILTERS_COLOR: "UPDATE_FILTERS_COLOR"
+}
+
+export default types;

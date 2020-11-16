@@ -1,5 +1,41 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: inline-flex;
+  padding: 10px;
+}
+
+.filter {
+  width: 300px;
+  border: 1px solid black;
+  padding: 15px;
+  height: 710px;
+}
+
+.products {
+  width: 248vh;
+  border: 1px solid black;
+  padding: 15px;
+  height: 710px;
+  margin-left: 10px;
+}
+
+.products-div {
+  display: inline-flex;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.products-list {
+  padding: 10px;
+}
+
+.side-tab-link:hover {
+  cursor: pointer;
+  color: lightskyblue;
+}
+
+.side-tab-link:active {
+  color:red;
 }
 
 .App-logo {
